@@ -1,0 +1,52 @@
+#mainbody {
+    display: grid;
+    flex-wrap: column wrap;
+}
+#firstContainer {
+    width: 50vw;
+
+    display: grid;
+}
+.secondContainer {
+width: 50vw;
+display: grid;
+}
+
+
+@media screen and (min-width: 300px) {
+    body {
+      background-color: lightgreen;
+    }
+    #mainbody {
+        display: grid;
+        flex-wrap: column wrap;
+    }
+    #firstContainer {
+        width: 100vw;
+    
+        display: grid;
+    }
+    .secondContainer {
+    width: 100vw;
+    display: grid;
+    }
+  }
+  
+  @media screen and (min-width: 991px) {
+    body {
+      background-color: lavender;
+    }
+    #mainbody {
+        display: grid;
+        flex-wrap: column wrap;
+    }
+    #firstContainer {
+        width: 50vw;
+    
+        display: grid;
+    }
+    .secondContainer {
+    width: 50vw;
+    display: grid;
+    }
+  }
